@@ -1,0 +1,6 @@
+pyyaml
+aiogram
+asyncpg
+redis
+gspread-asyncio
+sqlalchemy

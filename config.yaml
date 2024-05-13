@@ -1,0 +1,10 @@
+bot_token: 7067367194:AAFvJ0VLJEDOT0Emv9iDC5327Nk0KK-o_a8
+sheet_id: 1SpiZa36qo_iHWFJRGeEygsouOKU-iPh-dnBsZd339Fo
+redis_database_id: 0
+pg_user: booktell
+pg_password: booktell
+pg_database: booktell
+access_ids:
+  - 255552517
+  - 1037795887
+  - 6011199063
