@@ -56,13 +56,13 @@ class Record:
         print("len =", len(records))
         for record in records[int(page)-2:]:
             obj = cls(
-                isbn=str(record["Индивидуальный номер"]),
+                isbn=str(record["ISBN"]),
                 title=str(record["Название"]),
                 price_rub=record["Цена руб"],
                 price_eur=record["Цена евро"],
                 description=str(record["Описание"]),
-                hashtag=str(record["Хэштег"]),
-                target_age=str(record["Возраст"]),
+                hashtag="",
+                target_age=str(record["Название"]),
                 pictures=[
                     link for link in (
                         record["Ссылка на картинку 1"],

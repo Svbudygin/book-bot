@@ -158,7 +158,7 @@ def get_storka(isbn: str, title_of_list: str):
     print(isbn,title_of_list )
     id_of_list = sh.worksheet(title_of_list).id
     worksheet = sh.get_worksheet_by_id(id_of_list)
-    res = worksheet.find(isbn, in_column=1)
+    res = worksheet.find(isbn, in_column=5)
     if res is not None:
         res = worksheet.row_values(res.row)[0]
     return res
